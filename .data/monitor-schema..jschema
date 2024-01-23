@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "monitor.schema.json",
+    "title": "Monitor",
+    "description": "A pullRequest to be monitored",
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "Pull request number",
+        "type": "integer"
+      },
+      "org": {
+        "description": "Organization name",
+        "type": "string"
+      },
+      "repo": {
+        "description": "Repository name",
+        "type": "string"
+      },
+      "commit": {
+        "description": "Commit hash/id",
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "org",
+      "repo",
+      "commit"
+    ]
+  }
