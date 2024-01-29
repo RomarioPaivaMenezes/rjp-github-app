@@ -142,3 +142,9 @@ Used to register pullRequest to be monitored.
     "commit": "[commit hash id]"
 }
 ```
+
+## Architecture
+
+Architecture Diagram
+
+![Architecture Diagram](\.data\architecture.png)
