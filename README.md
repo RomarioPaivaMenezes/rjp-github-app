@@ -146,5 +146,5 @@ Used to register pullRequest to be monitored.
 ## Architecture
 
 Architecture Diagram
-
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/.data/architecture.png?raw=true)
 ![Architecture Diagram](\.data\architecture.png)
